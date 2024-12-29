@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>價格查詢</title>
+    <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0e68c; 
+      color: #a0522d;
+      margin: 0;
+  }
+  nav {
+      background-color: #deb887; 
+      padding: 10px;
+  }
+  nav a {
+      color: #fff8dc; 
+      text-decoration: none;
+      margin: 0 10px;
+  }
+  h1 {
+      text-align: center;
+      margin-top: 20px;
+  }
+  #parking-info {
+      width: 80%;
+      margin: 20px auto;
+      border: 1px solid #a0522d;
+      padding: 10px;
+      background-color: #fffaf0; 
+  }
+  </style>
+</head>
+<body>
+    <nav>
+        <a href="/">車位資訊</a>
+        <a href="/search">價格查詢</a>
+    </nav>
+    <h1>輸入資訊</h1>
+    <div id="input-form">
+        <form   action="/search_car" method="POST">
+        <label for="Url">rfid編號:</label>
+        <input type="text" id="name" name="car" required><br><br>
+        <input type="submit" value="Submit">
+        <br>
+        <p>您的金額:</p>
+        <out/>
+    </form>
+    </div>
+</body>
+</html>
